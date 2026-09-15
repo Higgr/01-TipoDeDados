@@ -80,7 +80,7 @@ int main()
 	cout << "minutos: " << minutos2 << endl;
 	cout << "segundos: " << segundos2 << endl;
 
-
+	
 
 
 	
