@@ -8,6 +8,8 @@ int main()
 {
 	cout << "Estrutura de Dados - Fatec (2026/2)" << endl;
 
+
+
 	
 	cout << "Tipos Numericos\n";
 	cout << "===============\n";
@@ -27,6 +29,7 @@ int main()
 
 	cout << "\nTipo logico (boolean)\n";
 	cout << "====================\n";
+
 	bool flFacil = false;
 	cout << "bool flFacil = " << flFacil << " ocupa " << sizeof(flFacil) << " bytes\n";
 
@@ -90,6 +93,30 @@ int main()
 	kel = cel + 273.15;
 	cout << "A temperatura em Fahrenheit e: " << fire << endl;
 	cout << "A temperatura em Kelvin e: " << kel << endl;
+
+
+
+
+
+	double célcius = 0;
+	double fire = 0;
+	double kelvin = 0;
+
+
+	double célsius = 0;
+	double fire = (célcius * 1,8) + 32;
+	double kelvin = (célcius + 273,15);
+	cout << "Digite graus celcius: ";
+	cin >> célsius;
+	cout << "Fire é: " << fire << endl;
+	cout << "Kelvin é: " << kelvin << endl;
+
+
+	
+
+
+
+
 
 
 
