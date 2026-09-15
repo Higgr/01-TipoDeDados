@@ -8,6 +8,8 @@ int main()
 {
 	cout << "Estrutura de Dados - Fatec (2026/2)" << endl;
 
+
+
 	
 	cout << "Tipos Numericos\n";
 	cout << "===============\n";
@@ -27,6 +29,7 @@ int main()
 
 	cout << "\nTipo logico (boolean)\n";
 	cout << "====================\n";
+
 	bool flFacil = false;
 	cout << "bool flFacil = " << flFacil << " ocupa " << sizeof(flFacil) << " bytes\n";
 
@@ -59,6 +62,30 @@ int main()
 	int dias = 0;
 	int horas = 0;
 	int minutos = 0;
+
+	double célcius = 0;
+	double fire = 0;
+	double kelvin = 0;
+
+
+	double célsius = 0;
+	double fire = (célcius * 1,8) + 32;
+	double kelvin = (célcius + 273,15);
+	cout << "Digite graus celcius: ";
+	cin >> célsius;
+	cout << "Fire é: " << fire << endl;
+	cout << "Kelvin é: " << kelvin << endl;
+
+
+	
+
+
+
+
+
+
+
+
 
 	cout << "Digite seu nome: ";
 	cin >> nome;
