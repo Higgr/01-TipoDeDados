@@ -59,6 +59,41 @@ int main()
 	int dias = 0;
 	int horas = 0;
 	int minutos = 0;
+	double cel = 0.0;
+	double fire = 0.0;
+	double kel = 0.0;
+	long dias2 = 0;
+	long horas2 = 0;
+	long minutos2 = 0;
+	long segundos2 = 0;
+
+	
+
+	cout << "Digite um valor: ";
+	cin >> segundos2;
+	dias2 = segundos2 / 86400;
+	horas2 = (segundos2 % 86400) / 3600;
+	minutos2 = (segundos2 % 3600) / 60;
+	segundos2 = segundos2 % 60;
+	cout << "dias: " << dias2 << endl;
+	cout << "horas: " << horas2 << endl;
+	cout << "minutos: " << minutos2 << endl;
+	cout << "segundos: " << segundos2 << endl;
+
+
+
+
+	
+	cout << "Digite a temperatura em Celsius: ";
+	cin >> cel;
+	fire = cel * 1.8 + 32.0;
+	kel = cel + 273.15;
+	cout << "A temperatura em Fahrenheit e: " << fire << endl;
+	cout << "A temperatura em Kelvin e: " << kel << endl;
+
+
+
+
 
 	cout << "Digite seu nome: ";
 	cin >> nome;
